@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.seamless_carousel {
+	overflow:hidden;
+	position:relative;
+}
+.seamless_carousel_list {
+	overflow:hidden;
+}
+.seamless_carousel_list a {
+	float:left;
+	margin-right: 20px;
+	overflow:hidden;
+	position: relative;
+}
+.seamless_carousel_list a img {
+	width:100%;
+	height: 100%;
+}
+.seamless_carousel_prev,.seamless_carousel_next {
+	display:block;
+	width:40px;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	font-size:30px;
+	opacity:.3;
+	filter:alpha(opacity=30);
+	color:#fff;
+	background:#000;
+	position:absolute;
+	top:50%;
+	z-index:99;
+	margin-top:-40px;
+}
+.seamless_carousel_prev {
+	left:0;
+}
+.seamless_carousel_next {
+	right:0;
+}
+.seamless_carousel:hover .seamless_carousel_prev,.seamless_carousel:hover .seamless_carousel_next {
+	opacity:.8;
+	filter:alpha(opacity=80);
+}
+.seamless_carousel_bottom{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: rgba(100,100,100,0.5);
+	color: #fff;
+	position: absolute;
+	bottom: -30px;
+	left: 0;
+}
+.seamless_carousel_list a:hover .seamless_carousel_bottom{
+	bottom: 0;
+}
+
+
+
+
+
+
+
